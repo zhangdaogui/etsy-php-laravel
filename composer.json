@@ -1,11 +1,11 @@
 {
-    "name": "gentor/etsy-php-laravel",
-    "description": "Etsy php wrapper for Laravel",
+    "name": "zhangdaogui/etsy-laravel",
+    "description": "Etsy php api for Laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "Evgeni Nurkov",
-            "email": "evgeni.nurkov@gmail.com"
+            "name": "Zhang Daogui",
+            "email": "1992zdg@gmail.com"
         }
     ],
     "require": {

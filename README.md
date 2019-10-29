@@ -9,7 +9,7 @@ Used some code from [etsy-php](https://github.com/inakiabt/etsy-php) by **Iñaki
 The following recommended installation requires [composer](http://getcomposer.org/). If you are unfamiliar with composer see the [composer installation instructions](http://getcomposer.org/doc/01-basic-usage.md#installation).
 
 ```
-composer require gentor/etsy-php-laravel
+composer require zhangdaogui/etsy-laravel
 ```
 
 
