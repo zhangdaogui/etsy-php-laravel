@@ -1,8 +1,8 @@
 <?php
 
-namespace Gentor\Etsy\Providers;
+namespace Zhangdaogui\Etsy\Providers;
 
-use Gentor\Etsy\EtsyService;
+use Zhangdaogui\Etsy\EtsyService;
 use Illuminate\Support\ServiceProvider;
 
 /**
@@ -39,5 +39,4 @@ class EtsyServiceProvider extends ServiceProvider
     {
         return ['etsy'];
     }
-
 }

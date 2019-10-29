@@ -1,11 +1,11 @@
 <?php
 
-namespace Gentor\Etsy;
+namespace Zhangdaogui\Etsy;
 
-use Gentor\Etsy\Exceptions\EtsyRequestException;
-use Gentor\Etsy\Exceptions\EtsyResponseException;
-use Gentor\Etsy\Helpers\RequestValidator;
-use Gentor\OAuth\Server\Etsy;
+use Zhangdaogui\Etsy\Exceptions\EtsyRequestException;
+use Zhangdaogui\Etsy\Exceptions\EtsyResponseException;
+use Zhangdaogui\Etsy\Helpers\RequestValidator;
+use Zhangdaogui\Etsy\OAuth\Server\Etsy;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use GuzzleHttp\Exception\BadResponseException;
 

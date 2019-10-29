@@ -1,6 +1,6 @@
 <?php
 
-namespace Gentor\OAuth\Signature;
+namespace Zhangdaogui\Etsy\OAuth\Signature;
 
 use GuzzleHttp\Psr7\Uri;
 use League\OAuth1\Client\Signature\HmacSha1Signature as Signature;

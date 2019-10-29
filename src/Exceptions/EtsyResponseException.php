@@ -1,7 +1,6 @@
 <?php
 
-namespace Gentor\Etsy\Exceptions;
-
+namespace Zhangdaogui\Etsy\Exceptions;
 
 /**
  * Class EtsyResponseException

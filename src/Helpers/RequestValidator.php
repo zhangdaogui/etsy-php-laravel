@@ -1,7 +1,6 @@
 <?php
 
-namespace Gentor\Etsy\Helpers;
-
+namespace Zhangdaogui\Etsy\Helpers;
 
 /**
  * Class RequestValidator

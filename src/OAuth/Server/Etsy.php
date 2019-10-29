@@ -1,8 +1,8 @@
 <?php
 
-namespace Gentor\OAuth\Server;
+namespace Zhangdaogui\Etsy\OAuth\Server;
 
-use Gentor\OAuth\Signature\HmacSha1Signature;
+use Zhangdaogui\Etsy\OAuth\Signature\HmacSha1Signature;
 use GuzzleHttp\Exception\BadResponseException;
 use League\OAuth1\Client\Server\Server;
 use League\OAuth1\Client\Server\User;

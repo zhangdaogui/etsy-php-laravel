@@ -1,6 +1,6 @@
 <?php
 
-namespace Gentor\Etsy\Facades;
+namespace Zhangdaogui\Etsy\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

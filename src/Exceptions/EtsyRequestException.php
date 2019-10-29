@@ -1,7 +1,6 @@
 <?php
 
-namespace Gentor\Etsy\Exceptions;
-
+namespace Zhangdaogui\Etsy\Exceptions;
 
 /**
  * Class EtsyRequestException
@@ -9,5 +8,5 @@ namespace Gentor\Etsy\Exceptions;
  */
 class EtsyRequestException extends \Exception
 {
-    
+
 }

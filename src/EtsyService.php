@@ -1,8 +1,8 @@
 <?php
 
-namespace Gentor\Etsy;
+namespace Zhangdaogui\Etsy;
 
-use Gentor\OAuth\Server\Etsy;
+use Zhangdaogui\Etsy\OAuth\Server\Etsy;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use Illuminate\Session\SessionManager;
 use Illuminate\Session\Store;
