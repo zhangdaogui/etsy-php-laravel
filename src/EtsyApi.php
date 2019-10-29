@@ -11,7 +11,7 @@ use GuzzleHttp\Exception\BadResponseException;
 
 /**
  * Class EtsyApi
- * @package Gentor\Etsy
+ * @package Zhangdaogui\Etsy
  *
  * All methods has only one argument, an array with two items (both are optional, depends on the method):
  * array('params' => array(), 'data' => array())

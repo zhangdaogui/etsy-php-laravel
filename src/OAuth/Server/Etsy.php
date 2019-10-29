@@ -3,6 +3,7 @@
 namespace Zhangdaogui\Etsy\OAuth\Server;
 
 use Zhangdaogui\Etsy\OAuth\Signature\HmacSha1Signature;
+use GuzzleHttp\Client as GuzzleHttpClient;
 use GuzzleHttp\Exception\BadResponseException;
 use League\OAuth1\Client\Server\Server;
 use League\OAuth1\Client\Server\User;

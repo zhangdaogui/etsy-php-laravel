@@ -4,7 +4,7 @@ namespace Zhangdaogui\Etsy\Helpers;
 
 /**
  * Class RequestValidator
- * @package Gentor\Etsy\Helpers
+ * @package Zhangdaogui\Etsy\Helpers
  */
 class RequestValidator
 {

@@ -9,7 +9,7 @@ use Illuminate\Session\Store;
 
 /**
  * Class EtsyService
- * @package Gentor\Etsy
+ * @package Zhangdaogui\Etsy
  */
 class EtsyService
 {

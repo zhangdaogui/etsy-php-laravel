@@ -2,6 +2,7 @@
     "name": "zhangdaogui/etsy-laravel",
     "description": "Etsy php api for Laravel",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Zhang Daogui",

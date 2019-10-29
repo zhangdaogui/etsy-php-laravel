@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * Class Etsy
- * @package Gentor\Etsy\Facades
+ * @package Zhangdaogui\Etsy\Facades
  *
  * All methods has only one argument, an array with two items (both are optional, depends on the method):
  * array('params' => array(), 'data' => array())

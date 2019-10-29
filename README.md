@@ -16,13 +16,13 @@ composer require zhangdaogui/etsy-laravel
 Add the service provider in `config/app.php`:
 
 ```php
-Gentor\Etsy\Providers\EtsyServiceProvider::class,
+Zhangdaogui\Etsy\Providers\EtsyServiceProvider::class,
 ```
 
 Add the facade alias in `config/app.php`:
 
 ```php
-Gentor\Etsy\Facades\Etsy::class,
+Zhangdaogui\Etsy\Facades\Etsy::class,
 ```
 
 Copy the config file and enter your Etsy App settings in `app/config/etsy.php`:
@@ -35,7 +35,8 @@ return array(
     'consumer_secret' => '',
     'access_token' => '',
     'access_token_secret' => '',
-    'scope' => ''
+    'scope' => '',
+    'proxy' => ''
 );
 ```
 

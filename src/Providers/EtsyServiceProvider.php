@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 
 /**
  * Class EtsyServiceProvider
- * @package Gentor\Etsy\Providers
+ * @package Zhangdaogui\Etsy\Providers
  */
 class EtsyServiceProvider extends ServiceProvider
 {

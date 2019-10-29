@@ -4,7 +4,7 @@ namespace Zhangdaogui\Etsy\Exceptions;
 
 /**
  * Class EtsyResponseException
- * @package Gentor\Etsy\Exceptions
+ * @package Zhangdaogui\Etsy\Exceptions
  */
 class EtsyResponseException extends \Exception
 {
