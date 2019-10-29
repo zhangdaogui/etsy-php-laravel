@@ -2,8 +2,7 @@
 
 namespace Gentor\Etsy;
 
-
-use Gentor\OAuth1Etsy\Client\Server\Etsy;
+use Gentor\OAuth\Server\Etsy;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use Illuminate\Session\SessionManager;
 use Illuminate\Session\Store;
@@ -25,12 +24,11 @@ class EtsyService
 
     /**
      * EtsyService constructor.
-     * @param SessionManager $session
      * @param array $config
      */
-    public function __construct(SessionManager $session, array $config)
+    public function __construct(array $config)
     {
-        $this->session = $session;
+        $this->session = app(SessionManager::class);
 
         $this->server = new Etsy([
             'identifier' => $config['consumer_key'],

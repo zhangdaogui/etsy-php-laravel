@@ -2,11 +2,10 @@
 
 namespace Gentor\Etsy;
 
-
 use Gentor\Etsy\Exceptions\EtsyRequestException;
 use Gentor\Etsy\Exceptions\EtsyResponseException;
 use Gentor\Etsy\Helpers\RequestValidator;
-use Gentor\OAuth1Etsy\Client\Server\Etsy;
+use Gentor\OAuth\Server\Etsy;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use GuzzleHttp\Exception\BadResponseException;
 

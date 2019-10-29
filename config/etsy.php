@@ -5,5 +5,6 @@ return array(
     'consumer_secret' => '',
     'access_token' => '',
     'access_token_secret' => '',
-    'scope' => ''
+    'scope' => '',
+    'proxy' => ''
 );
